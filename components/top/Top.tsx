@@ -76,7 +76,7 @@ export default function Top() {
       <View style={styles.star}>
         <Image
           style={styles.starImg}
-          source={require("../assets/star.png")}
+          source={require("../../assets/star.png")}
         ></Image>
         <Text style={styles.rank}>{item.rank}</Text>
       </View>
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     height: "auto",
     paddingLeft: 20,
     paddingRight: 20,
-    overflow: "visible",
+    overflow: "hidden",
   },
   numberCont: {
     height: "100%",
